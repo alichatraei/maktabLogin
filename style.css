@@ -18,4 +18,33 @@ main {
   background-color: white;
   box-shadow: 0.2rem 0.1rem 1rem #423838;
   display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+.username {
+  display: flex;
+  width: 100%;
+  margin-bottom: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.password {
+  display: flex;
+  width: 100%;
+  margin-bottom: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.forgottenpassword {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
