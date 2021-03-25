@@ -1,3 +1,8 @@
+/* Import fonts */
+@font-face {
+  font-family: roboto;
+  src: url(./Roboto-Medium.ttf) format(truetype);
+}
 /* reset page */
 html,
 body {
@@ -12,6 +17,7 @@ body {
 }
 * {
   box-sizing: border-box;
+  font-family: roboto;
 }
 main {
   width: 25rem;
@@ -28,6 +34,9 @@ main {
   margin-bottom: 1rem;
   align-items: center;
   justify-content: center;
+}
+.username input:focus {
+  border-bottom: 0.2rem solid #4e4e4e;
 }
 .username input {
   width: 60%;
@@ -48,6 +57,9 @@ main {
   height: 2rem;
   outline: none;
   border: none;
+}
+.password input:focus {
+  border-bottom: 0.2rem solid #4e4e4e;
 }
 .button {
   display: flex;
